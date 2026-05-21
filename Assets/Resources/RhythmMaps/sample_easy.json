@@ -1,0 +1,33 @@
+{
+  "songName": "sample_easy",
+  "bpm": 120,
+  "notes": [
+    { "time":  3.0,  "hole": "Left"      },
+    { "time":  4.0,  "hole": "Right"     },
+    { "time":  5.0,  "hole": "Left"      },
+    { "time":  6.0,  "hole": "Right"     },
+    { "time":  7.0,  "hole": "Up"        },
+    { "time":  8.0,  "hole": "Down"      },
+    { "time":  9.0,  "hole": "Up"        },
+    { "time": 10.0,  "hole": "Down"      },
+    { "time": 11.0,  "hole": "Left"      },
+    { "time": 12.0,  "hole": "Up"        },
+    { "time": 13.0,  "hole": "Right"     },
+    { "time": 14.0,  "hole": "Down"      },
+    { "time": 15.0,  "hole": "Left"      },
+    { "time": 16.0,  "hole": "Right"     },
+    { "time": 17.0,  "hole": "Up"        },
+    { "time": 18.0,  "hole": "Down"      },
+    { "time": 19.0,  "hole": "Left"      },
+    { "time": 20.0,  "hole": "Up"        },
+    { "time": 21.0,  "hole": "Right"     },
+    { "time": 22.0,  "hole": "Down"      },
+    { "time": 23.5,  "hole": "UpRight"   },
+    { "time": 24.5,  "hole": "DownLeft"  },
+    { "time": 25.5,  "hole": "Left"      },
+    { "time": 26.5,  "hole": "UpLeft"    },
+    { "time": 27.5,  "hole": "Right"     },
+    { "time": 28.5,  "hole": "Down"      },
+    { "time": 29.5,  "hole": "DownRight" }
+  ]
+}
