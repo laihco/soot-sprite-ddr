@@ -4,32 +4,40 @@ namespace SootDDR.Core
 {
     /// <summary>
     /// A single note entry in a rhythm chart.
-    /// JSON-serializable fields are populated by JsonUtility.
-    /// Runtime fields are computed by RhythmGameManager before play begins.
+    /// Notes are stored as BEATS and converted to seconds at runtime using BPM.
     /// </summary>
     [Serializable]
     public class RhythmNote
     {
         // ── Serialized from JSON ──────────────────────────────────────────────────
 
-        /// <summary>Song-relative time (seconds) when the player should hit this note.</summary>
-        public float time;
+        /// <summary>
+        /// Beat position in the song.
+        /// Example:
+        /// 0   = first beat
+        /// 1   = second beat
+        /// 0.5 = eighth note between beat 0 and 1
+        /// </summary>
+        public float beat;
 
         /// <summary>
         /// The grid hole this note belongs to.
-        /// Must match a NoteDirection enum name exactly (e.g. "Left", "UpRight").
+        /// Must match a NoteDirection enum name exactly.
         /// </summary>
         public string hole;
 
         // ── Computed at runtime — not serialized ─────────────────────────────────
 
-        /// <summary>Parsed enum value of <see cref="hole"/>.</summary>
+        /// <summary>Converted beat → seconds using BPM.</summary>
+        [NonSerialized] public float time;
+
+        /// <summary>Parsed enum value of hole.</summary>
         [NonSerialized] public NoteDirection noteDirection;
 
-        /// <summary>Absolute DSP timestamp for this note's hit moment, set when the song is scheduled.</summary>
+        /// <summary>Absolute DSP timestamp for this note's hit moment.</summary>
         [NonSerialized] public double hitDspTime;
 
-        /// <summary>Song-relative time the soot sprite should pop up: time − approachDuration.</summary>
+        /// <summary>Song-relative time the note should spawn.</summary>
         [NonSerialized] public float spawnTime;
 
         [NonSerialized] public bool hasBeenSpawned;
