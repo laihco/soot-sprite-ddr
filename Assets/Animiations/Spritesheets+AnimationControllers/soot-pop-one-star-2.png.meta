@@ -1,0 +1,864 @@
+fileFormatVersion: 2
+guid: 9e5612ffa5d511e43bfd44c9c463ea74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8732222409243485644
+    second: soot-pop-one-star-2_0
+  - first:
+      213: -6588860256510725259
+    second: soot-pop-one-star-2_1
+  - first:
+      213: 9148645191905407852
+    second: soot-pop-one-star-2_2
+  - first:
+      213: 4413287767750544705
+    second: soot-pop-one-star-2_3
+  - first:
+      213: -551130071112599074
+    second: soot-pop-one-star-2_4
+  - first:
+      213: -5343238446966256633
+    second: soot-pop-one-star-2_5
+  - first:
+      213: 3855721846475375255
+    second: soot-pop-one-star-2_6
+  - first:
+      213: -8917783740197879956
+    second: soot-pop-one-star-2_7
+  - first:
+      213: 2874925436748739085
+    second: soot-pop-one-star-2_8
+  - first:
+      213: -4537373784742565031
+    second: soot-pop-one-star-2_9
+  - first:
+      213: 714144727078700880
+    second: soot-pop-one-star-2_10
+  - first:
+      213: -5630885892266723666
+    second: soot-pop-one-star-2_11
+  - first:
+      213: -5334135858645732062
+    second: soot-pop-one-star-2_12
+  - first:
+      213: 5621260459758129988
+    second: soot-pop-one-star-2_13
+  - first:
+      213: 2946848900807784731
+    second: soot-pop-one-star-2_14
+  - first:
+      213: -7971588707891526635
+    second: soot-pop-one-star-2_15
+  - first:
+      213: -3122776344486756782
+    second: soot-pop-one-star-2_16
+  - first:
+      213: -681013795261237071
+    second: soot-pop-one-star-2_17
+  - first:
+      213: 2092367676110406514
+    second: soot-pop-one-star-2_18
+  - first:
+      213: -3217661014505369802
+    second: soot-pop-one-star-2_19
+  - first:
+      213: 4402525264449754206
+    second: soot-pop-one-star-2_20
+  - first:
+      213: 1556152624747017336
+    second: soot-pop-one-star-2_21
+  - first:
+      213: -3121015765330775733
+    second: soot-pop-one-star-2_22
+  - first:
+      213: -4663460696472818711
+    second: soot-pop-one-star-2_23
+  - first:
+      213: -4943271563604840234
+    second: soot-pop-one-star-2_24
+  - first:
+      213: 6432086259732049724
+    second: soot-pop-one-star-2_25
+  - first:
+      213: 6790549941065262310
+    second: soot-pop-one-star-2_26
+  - first:
+      213: -7661465202099723463
+    second: soot-pop-one-star-2_27
+  - first:
+      213: -5835800296343512187
+    second: soot-pop-one-star-2_28
+  - first:
+      213: 8015127881529775282
+    second: soot-pop-one-star-2_29
+  - first:
+      213: -7925078606865144462
+    second: soot-pop-one-star-2_30
+  - first:
+      213: 7441169989566578189
+    second: soot-pop-one-star-2_31
+  - first:
+      213: -4226726699923484498
+    second: soot-pop-one-star-2_32
+  - first:
+      213: 5794591132825683163
+    second: soot-pop-one-star-2_33
+  - first:
+      213: 2809505278810331202
+    second: soot-pop-one-star-2_34
+  - first:
+      213: 3467692619306702673
+    second: soot-pop-one-star-2_35
+  - first:
+      213: 4037750119687010813
+    second: soot-pop-one-star-2_36
+  - first:
+      213: -8229079813504766423
+    second: soot-pop-one-star-2_37
+  - first:
+      213: -8334004946770642843
+    second: soot-pop-one-star-2_38
+  - first:
+      213: 1799856787367117695
+    second: soot-pop-one-star-2_39
+  - first:
+      213: 8307248956561335479
+    second: soot-pop-one-star-2_40
+  - first:
+      213: -8385556106742081224
+    second: soot-pop-one-star-2_41
+  - first:
+      213: -1631098730730673302
+    second: soot-pop-one-star-2_42
+  - first:
+      213: 3732164765157905040
+    second: soot-pop-one-star-2_43
+  - first:
+      213: -1218205494014175298
+    second: soot-pop-one-star-2_44
+  - first:
+      213: 891611503793303067
+    second: soot-pop-one-star-2_45
+  - first:
+      213: -6404821288085501684
+    second: soot-pop-one-star-2_46
+  - first:
+      213: 6727308817762240523
+    second: soot-pop-one-star-2_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a165debf9e0d680800000000000000
+      internalID: -8732222409243485644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5733df7818aaf84a0800000000000000
+      internalID: -6588860256510725259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c637b97945486fe70800000000000000
+      internalID: 9148645191905407852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d095897d52f3d30800000000000000
+      internalID: 4413287767750544705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed93c4ece1ef958f0800000000000000
+      internalID: -551130071112599074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ccd5231f009d5b0800000000000000
+      internalID: -5343238446966256633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792c0e34796428530800000000000000
+      internalID: 3855721846475375255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f30cdcfeaad3480800000000000000
+      internalID: -8917783740197879956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02b425e379c5e720800000000000000
+      internalID: 2874925436748739085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bef3335920801c0800000000000000
+      internalID: -4537373784742565031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0578eb778d629e900800000000000000
+      internalID: 714144727078700880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6feac5d131bd1b0800000000000000
+      internalID: -5630885892266723666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2257fb1b2b759f5b0800000000000000
+      internalID: -5334135858645732062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44315ddfa9ab20e40800000000000000
+      internalID: 5621260459758129988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19f563567f45e820800000000000000
+      internalID: 2946848900807784731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5144c923e4a3f5190800000000000000
+      internalID: -7971588707891526635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ebfd9b57ba9a4d0800000000000000
+      internalID: -3122776344486756782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b83056bf8d8c86f0800000000000000
+      internalID: -681013795261237071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273021ac055990d10800000000000000
+      internalID: 2092367676110406514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fc8ceea529853d0800000000000000
+      internalID: -3217661014505369802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54d5360769e81d30800000000000000
+      internalID: 4402525264449754206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874765e3190989510800000000000000
+      internalID: 1556152624747017336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41b01182bcefa4d0800000000000000
+      internalID: -3121015765330775733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebedb2643f084fb0800000000000000
+      internalID: -4663460696472818711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop-one-star-2_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d03b0714b8f56bb0800000000000000
+      internalID: -4943271563604840234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 211640c076d13ec4c8214896d72239a6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":4.0},"gridSpriteSize":{"x":64.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      soot-pop-one-star-2_0: -8732222409243485644
+      soot-pop-one-star-2_1: -6588860256510725259
+      soot-pop-one-star-2_10: 714144727078700880
+      soot-pop-one-star-2_11: -5630885892266723666
+      soot-pop-one-star-2_12: -5334135858645732062
+      soot-pop-one-star-2_13: 5621260459758129988
+      soot-pop-one-star-2_14: 2946848900807784731
+      soot-pop-one-star-2_15: -7971588707891526635
+      soot-pop-one-star-2_16: -3122776344486756782
+      soot-pop-one-star-2_17: -681013795261237071
+      soot-pop-one-star-2_18: 2092367676110406514
+      soot-pop-one-star-2_19: -3217661014505369802
+      soot-pop-one-star-2_2: 9148645191905407852
+      soot-pop-one-star-2_20: 4402525264449754206
+      soot-pop-one-star-2_21: 1556152624747017336
+      soot-pop-one-star-2_22: -3121015765330775733
+      soot-pop-one-star-2_23: -4663460696472818711
+      soot-pop-one-star-2_24: -4943271563604840234
+      soot-pop-one-star-2_3: 4413287767750544705
+      soot-pop-one-star-2_4: -551130071112599074
+      soot-pop-one-star-2_5: -5343238446966256633
+      soot-pop-one-star-2_6: 3855721846475375255
+      soot-pop-one-star-2_7: -8917783740197879956
+      soot-pop-one-star-2_8: 2874925436748739085
+      soot-pop-one-star-2_9: -4537373784742565031
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
