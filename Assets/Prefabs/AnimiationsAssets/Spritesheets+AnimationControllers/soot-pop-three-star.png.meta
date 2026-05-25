@@ -1,157 +1,142 @@
 fileFormatVersion: 2
-guid: 3a62175ae915ae745a7ad6e16f219ab0
+guid: 78e6a77e6ec6d9a4c950d3c96318bad9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1550189483623484327
-    second: soot-pop-two-star_0
+      213: 2035378220006977012
+    second: soot-pop-three-star_0
   - first:
-      213: -2888109583435913613
-    second: soot-pop-two-star_1
+      213: 1124941626906463505
+    second: soot-pop-three-star_1
   - first:
-      213: -916068007906094474
-    second: soot-pop-two-star_2
+      213: 1519193737204416188
+    second: soot-pop-three-star_2
   - first:
-      213: 2399816298359443677
-    second: soot-pop-two-star_3
+      213: -2010543124394594933
+    second: soot-pop-three-star_3
   - first:
-      213: -8342462278896231903
-    second: soot-pop-two-star_4
+      213: 9013477610262153360
+    second: soot-pop-three-star_4
   - first:
-      213: -5652167763487305196
-    second: soot-pop-two-star_5
+      213: 6173304678848441166
+    second: soot-pop-three-star_5
   - first:
-      213: 3065669187846401151
-    second: soot-pop-two-star_6
+      213: -7016667301377398145
+    second: soot-pop-three-star_6
   - first:
-      213: -46571494782107266
-    second: soot-pop-two-star_7
+      213: -1042136213026137857
+    second: soot-pop-three-star_7
   - first:
-      213: 4446147845220438973
-    second: soot-pop-two-star_8
+      213: -4693967842140719154
+    second: soot-pop-three-star_8
   - first:
-      213: -6962511736207249315
-    second: soot-pop-two-star_9
+      213: 4624529489660334254
+    second: soot-pop-three-star_9
   - first:
-      213: 1651400732316655118
-    second: soot-pop-two-star_10
+      213: 4293141846494232257
+    second: soot-pop-three-star_10
   - first:
-      213: 8504174250238058610
-    second: soot-pop-two-star_11
+      213: -986802794316063959
+    second: soot-pop-three-star_11
   - first:
-      213: 7972659087401032466
-    second: soot-pop-two-star_12
+      213: 5009419460019229332
+    second: soot-pop-three-star_12
   - first:
-      213: 7435430855206532756
-    second: soot-pop-two-star_13
+      213: 5977303214182626313
+    second: soot-pop-three-star_13
   - first:
-      213: 5516018617126386532
-    second: soot-pop-two-star_14
+      213: -462691094270819334
+    second: soot-pop-three-star_14
   - first:
-      213: -6171190987395494101
-    second: soot-pop-two-star_15
+      213: 4210540925255248454
+    second: soot-pop-three-star_15
   - first:
-      213: 1442809457967220912
-    second: soot-pop-two-star_16
+      213: 7701730522328769798
+    second: soot-pop-three-star_16
   - first:
-      213: -4711388228408703514
-    second: soot-pop-two-star_17
+      213: -7999837558868944549
+    second: soot-pop-three-star_17
   - first:
-      213: -3654566063033403664
-    second: soot-pop-two-star_18
+      213: 7111436593964790898
+    second: soot-pop-three-star_18
   - first:
-      213: -7267466685334793967
-    second: soot-pop-two-star_19
+      213: -3732197354003330692
+    second: soot-pop-three-star_19
   - first:
-      213: -171649675469406409
-    second: soot-pop-two-star_20
+      213: -294117688499477936
+    second: soot-pop-three-star_20
   - first:
-      213: -4089661231633296408
-    second: soot-pop-two-star_21
+      213: 4423048108093675213
+    second: soot-pop-three-star_21
   - first:
-      213: -4577402936916736983
-    second: soot-pop-two-star_22
+      213: -2025165638217581468
+    second: soot-pop-three-star_22
   - first:
-      213: -4069001769178746042
-    second: soot-pop-two-star_23
+      213: 2469326255085676280
+    second: soot-pop-three-star_23
   - first:
-      213: -9184830737872200755
-    second: soot-pop-two-star_24
+      213: 243695155526910886
+    second: soot-pop-three-star_24
   - first:
-      213: 3069170939596861562
-    second: soot-pop-two-star_25
+      213: -6752301469188328922
+    second: soot-pop-three-star_25
   - first:
-      213: 4361865330186533922
-    second: soot-pop-two-star_26
+      213: -6135225002555235257
+    second: soot-pop-three-star_26
   - first:
-      213: -7263358333611287418
-    second: soot-pop-two-star_27
+      213: -4690762408753689229
+    second: soot-pop-three-star_27
   - first:
-      213: -3124271789412351977
-    second: soot-pop-two-star_28
+      213: -2103463938474485560
+    second: soot-pop-three-star_28
   - first:
-      213: 5960023281354243360
-    second: soot-pop-two-star_29
+      213: 4582248308889161400
+    second: soot-pop-three-star_29
   - first:
-      213: -2578653884032671337
-    second: soot-pop-two-star_30
+      213: -605058217205902994
+    second: soot-pop-three-star_30
   - first:
-      213: -6401605806371990103
-    second: soot-pop-two-star_31
+      213: 1248843564342773244
+    second: soot-pop-three-star_31
   - first:
-      213: 6121797051913670589
-    second: soot-pop-two-star_32
+      213: -3754801906409389919
+    second: soot-pop-three-star_32
   - first:
-      213: -4343776127804318816
-    second: soot-pop-two-star_33
+      213: 510768098562354079
+    second: soot-pop-three-star_33
   - first:
-      213: 4660343653585367770
-    second: soot-pop-two-star_34
+      213: 930330893718345577
+    second: soot-pop-three-star_34
   - first:
-      213: -6776736232599593782
-    second: soot-pop-two-star_35
+      213: 5664643785142065742
+    second: soot-pop-three-star_35
   - first:
-      213: -5083205888625452715
-    second: soot-pop-two-star_36
+      213: 1688585262587988147
+    second: soot-pop-three-star_36
   - first:
-      213: 6650361696532668738
-    second: soot-pop-two-star_37
+      213: -5121104590885442212
+    second: soot-pop-three-star_37
   - first:
-      213: -5303392902768776562
-    second: soot-pop-two-star_38
+      213: 2703766278501273329
+    second: soot-pop-three-star_38
   - first:
-      213: 2546876022662282214
-    second: soot-pop-two-star_39
+      213: -3303710128830838565
+    second: soot-pop-three-star_39
   - first:
-      213: -1667827511254445630
-    second: soot-pop-two-star_40
+      213: 8893274346775106304
+    second: soot-pop-three-star_40
   - first:
-      213: -6062064539442084707
-    second: soot-pop-two-star_41
+      213: 6199058513256435325
+    second: soot-pop-three-star_41
   - first:
-      213: 1900453046707818693
-    second: soot-pop-two-star_42
+      213: -1908252178594200893
+    second: soot-pop-three-star_42
   - first:
-      213: 6065383857867320292
-    second: soot-pop-two-star_43
+      213: 7301972111290614638
+    second: soot-pop-three-star_43
   - first:
-      213: 4669952104681002796
-    second: soot-pop-two-star_44
-  - first:
-      213: 8507506237817164361
-    second: soot-pop-two-star_45
-  - first:
-      213: -8325625588957635613
-    second: soot-pop-two-star_46
-  - first:
-      213: -9069151779046634391
-    second: soot-pop-two-star_47
-  - first:
-      213: -2604446642033020793
-    second: soot-pop-two-star_48
-  - first:
-      213: 1001662487068127600
-    second: soot-pop-two-star_49
+      213: 1390091707325955974
+    second: soot-pop-three-star_44
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -184,7 +169,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -222,7 +207,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -273,7 +258,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: soot-pop-two-star_0
+      name: soot-pop-three-star_0
       rect:
         serializedVersion: 2
         x: 64
@@ -288,14 +273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ab8ce14f11638510800000000000000
-      internalID: 1550189483623484327
+      spriteID: 4fd251b05bd1f3c10800000000000000
+      internalID: 2035378220006977012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_1
+      name: soot-pop-three-star_1
       rect:
         serializedVersion: 2
         x: 128
@@ -310,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 376a6eeb2af5be7d0800000000000000
-      internalID: -2888109583435913613
+      spriteID: 11d4fc013789c9f00800000000000000
+      internalID: 1124941626906463505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_2
+      name: soot-pop-three-star_2
       rect:
         serializedVersion: 2
         x: 192
@@ -332,14 +317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67258a610097943f0800000000000000
-      internalID: -916068007906094474
+      spriteID: cbe311ba7a2451510800000000000000
+      internalID: 1519193737204416188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_3
+      name: soot-pop-three-star_3
       rect:
         serializedVersion: 2
         x: 256
@@ -354,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd058e5653cdd4120800000000000000
-      internalID: 2399816298359443677
+      spriteID: b8d2bd04ead1914e0800000000000000
+      internalID: -2010543124394594933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_4
+      name: soot-pop-three-star_4
       rect:
         serializedVersion: 2
         x: 320
@@ -376,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12a5b42f1ce993c80800000000000000
-      internalID: -8342462278896231903
+      spriteID: 098cc9e812e461d70800000000000000
+      internalID: 9013477610262153360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_5
+      name: soot-pop-three-star_5
       rect:
         serializedVersion: 2
         x: 384
@@ -398,14 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 412dc669d577f81b0800000000000000
-      internalID: -5652167763487305196
+      spriteID: e4ba409d5ebfba550800000000000000
+      internalID: 6173304678848441166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_6
+      name: soot-pop-three-star_6
       rect:
         serializedVersion: 2
         x: 0
@@ -420,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7ce17c32e17b8a20800000000000000
-      internalID: 3065669187846401151
+      spriteID: f7a2d4ae34acf9e90800000000000000
+      internalID: -7016667301377398145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_7
+      name: soot-pop-three-star_7
       rect:
         serializedVersion: 2
         x: 64
@@ -442,14 +427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e718ad4e87b8a5ff0800000000000000
-      internalID: -46571494782107266
+      spriteID: ff8910fb2a69981f0800000000000000
+      internalID: -1042136213026137857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_8
+      name: soot-pop-three-star_8
       rect:
         serializedVersion: 2
         x: 128
@@ -464,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db39b3598e3e3bd30800000000000000
-      internalID: 4446147845220438973
+      spriteID: ec778160e1dabdeb0800000000000000
+      internalID: -4693967842140719154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_9
+      name: soot-pop-three-star_9
       rect:
         serializedVersion: 2
         x: 192
@@ -486,14 +471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d50f0e20770306f90800000000000000
-      internalID: -6962511736207249315
+      spriteID: ea0d58ca111ad2040800000000000000
+      internalID: 4624529489660334254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_10
+      name: soot-pop-three-star_10
       rect:
         serializedVersion: 2
         x: 256
@@ -508,14 +493,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0edd8f6734fae610800000000000000
-      internalID: 1651400732316655118
+      spriteID: 1ce37aa63cd449b30800000000000000
+      internalID: 4293141846494232257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_11
+      name: soot-pop-three-star_11
       rect:
         serializedVersion: 2
         x: 320
@@ -530,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 270a67d6c65e40670800000000000000
-      internalID: 8504174250238058610
+      spriteID: 92b9d6d361c2e42f0800000000000000
+      internalID: -986802794316063959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_12
+      name: soot-pop-three-star_12
       rect:
         serializedVersion: 2
         x: 384
@@ -552,14 +537,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21b14d3f23394ae60800000000000000
-      internalID: 7972659087401032466
+      spriteID: 49210653578058540800000000000000
+      internalID: 5009419460019229332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_13
+      name: soot-pop-three-star_13
       rect:
         serializedVersion: 2
         x: 0
@@ -574,14 +559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 496709cd7f4ff2760800000000000000
-      internalID: 7435430855206532756
+      spriteID: 904f72caa95a3f250800000000000000
+      internalID: 5977303214182626313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_14
+      name: soot-pop-three-star_14
       rect:
         serializedVersion: 2
         x: 64
@@ -596,14 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46b724805b5dc8c40800000000000000
-      internalID: 5516018617126386532
+      spriteID: af34045b6e03499f0800000000000000
+      internalID: -462691094270819334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_15
+      name: soot-pop-three-star_15
       rect:
         serializedVersion: 2
         x: 128
@@ -618,14 +603,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2f033b4e768b5aa0800000000000000
-      internalID: -6171190987395494101
+      spriteID: 64a6512c9a8de6a30800000000000000
+      internalID: 4210540925255248454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_16
+      name: soot-pop-three-star_16
       rect:
         serializedVersion: 2
         x: 192
@@ -640,14 +625,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b8c5b4ce83e50410800000000000000
-      internalID: 1442809457967220912
+      spriteID: 605a033ca1b02ea60800000000000000
+      internalID: 7701730522328769798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_17
+      name: soot-pop-three-star_17
       rect:
         serializedVersion: 2
         x: 256
@@ -662,14 +647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e50eb64e59cd9eb0800000000000000
-      internalID: -4711388228408703514
+      spriteID: b59d9ca002edaf090800000000000000
+      internalID: -7999837558868944549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_18
+      name: soot-pop-three-star_18
       rect:
         serializedVersion: 2
         x: 320
@@ -684,14 +669,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f632b4478f584dc0800000000000000
-      internalID: -3654566063033403664
+      spriteID: 2743cf977e5e0b260800000000000000
+      internalID: 7111436593964790898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_19
+      name: soot-pop-three-star_19
       rect:
         serializedVersion: 2
         x: 384
@@ -706,14 +691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11152abed85c42b90800000000000000
-      internalID: -7267466685334793967
+      spriteID: c798af2d742943cc0800000000000000
+      internalID: -3732197354003330692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_20
+      name: soot-pop-three-star_20
       rect:
         serializedVersion: 2
         x: 0
@@ -728,14 +713,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73fb5d3978d2e9df0800000000000000
-      internalID: -171649675469406409
+      spriteID: 05264d645851bebf0800000000000000
+      internalID: -294117688499477936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_21
+      name: soot-pop-three-star_21
       rect:
         serializedVersion: 2
         x: 64
@@ -750,14 +735,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e39fcc17ca9e37c0800000000000000
-      internalID: -4089661231633296408
+      spriteID: dc6136be1d2d16d30800000000000000
+      internalID: 4423048108093675213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_22
+      name: soot-pop-three-star_22
       rect:
         serializedVersion: 2
         x: 128
@@ -772,14 +757,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9248f3fe74cc970c0800000000000000
-      internalID: -4577402936916736983
+      spriteID: 46cb6b2f49a25e3e0800000000000000
+      internalID: -2025165638217581468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_23
+      name: soot-pop-three-star_23
       rect:
         serializedVersion: 2
         x: 192
@@ -794,14 +779,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6433aad03700887c0800000000000000
-      internalID: -4069001769178746042
+      spriteID: 8f66dec552fc44220800000000000000
+      internalID: 2469326255085676280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop-two-star_24
+      name: soot-pop-three-star_24
       rect:
         serializedVersion: 2
         x: 256
@@ -816,8 +801,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcbd9037b1de88080800000000000000
-      internalID: -9184830737872200755
+      spriteID: 6a34aaae377c16300800000000000000
+      internalID: 243695155526910886
       vertices: []
       indices: 
       edges: []
@@ -826,7 +811,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d167605b35bbd204899f9793d7cbaab4
+    spriteID: d90eb179279d482449bf5c9b8841d83d
     internalID: 0
     vertices: []
     indices: 
@@ -838,31 +823,31 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":4.0},"gridSpriteSize":{"x":64.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      soot-pop-two-star_0: 1550189483623484327
-      soot-pop-two-star_1: -2888109583435913613
-      soot-pop-two-star_10: 1651400732316655118
-      soot-pop-two-star_11: 8504174250238058610
-      soot-pop-two-star_12: 7972659087401032466
-      soot-pop-two-star_13: 7435430855206532756
-      soot-pop-two-star_14: 5516018617126386532
-      soot-pop-two-star_15: -6171190987395494101
-      soot-pop-two-star_16: 1442809457967220912
-      soot-pop-two-star_17: -4711388228408703514
-      soot-pop-two-star_18: -3654566063033403664
-      soot-pop-two-star_19: -7267466685334793967
-      soot-pop-two-star_2: -916068007906094474
-      soot-pop-two-star_20: -171649675469406409
-      soot-pop-two-star_21: -4089661231633296408
-      soot-pop-two-star_22: -4577402936916736983
-      soot-pop-two-star_23: -4069001769178746042
-      soot-pop-two-star_24: -9184830737872200755
-      soot-pop-two-star_3: 2399816298359443677
-      soot-pop-two-star_4: -8342462278896231903
-      soot-pop-two-star_5: -5652167763487305196
-      soot-pop-two-star_6: 3065669187846401151
-      soot-pop-two-star_7: -46571494782107266
-      soot-pop-two-star_8: 4446147845220438973
-      soot-pop-two-star_9: -6962511736207249315
+      soot-pop-three-star_0: 2035378220006977012
+      soot-pop-three-star_1: 1124941626906463505
+      soot-pop-three-star_10: 4293141846494232257
+      soot-pop-three-star_11: -986802794316063959
+      soot-pop-three-star_12: 5009419460019229332
+      soot-pop-three-star_13: 5977303214182626313
+      soot-pop-three-star_14: -462691094270819334
+      soot-pop-three-star_15: 4210540925255248454
+      soot-pop-three-star_16: 7701730522328769798
+      soot-pop-three-star_17: -7999837558868944549
+      soot-pop-three-star_18: 7111436593964790898
+      soot-pop-three-star_19: -3732197354003330692
+      soot-pop-three-star_2: 1519193737204416188
+      soot-pop-three-star_20: -294117688499477936
+      soot-pop-three-star_21: 4423048108093675213
+      soot-pop-three-star_22: -2025165638217581468
+      soot-pop-three-star_23: 2469326255085676280
+      soot-pop-three-star_24: 243695155526910886
+      soot-pop-three-star_3: -2010543124394594933
+      soot-pop-three-star_4: 9013477610262153360
+      soot-pop-three-star_5: 6173304678848441166
+      soot-pop-three-star_6: -7016667301377398145
+      soot-pop-three-star_7: -1042136213026137857
+      soot-pop-three-star_8: -4693967842140719154
+      soot-pop-three-star_9: 4624529489660334254
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
