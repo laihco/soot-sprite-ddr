@@ -1,0 +1,38 @@
+{
+  "songName": "sample_easy",
+  "bpm": 120,
+  "notes": [
+    { "beat": 8,  "holeID": 2, "enemyID": 0 },
+    { "beat": 12, "holeID": 3, "enemyID": 1 },
+    { "beat": 14, "holeID": 2, "enemyID": 2 },
+    { "beat": 18, "holeID": 1, "enemyID": 3 },
+    { "beat": 22, "holeID": 4, "enemyID": 4 },
+
+    { "beat": 26, "holeID": 2, "enemyID": 1 },
+    { "beat": 30, "holeID": 3, "enemyID": 2 },
+    { "beat": 32, "holeID": 1, "enemyID": 0 },
+    { "beat": 36, "holeID": 3, "enemyID": 4 },
+    { "beat": 40, "holeID": 2, "enemyID": 3 },
+
+    { "beat": 42, "holeID": 3, "enemyID": 1 },
+    { "beat": 44, "holeID": 1, "enemyID": 2 },
+    { "beat": 48, "holeID": 4, "enemyID": 0 },
+    { "beat": 52, "holeID": 4, "enemyID": 3 },
+    { "beat": 55, "holeID": 1, "enemyID": 4 },
+
+    { "beat": 58, "holeID": 2, "enemyID": 2 },
+    { "beat": 62, "holeID": 2, "enemyID": 1 },
+    { "beat": 66, "holeID": 3, "enemyID": 0 },
+    { "beat": 70, "holeID": 3, "enemyID": 4 },
+    { "beat": 72, "holeID": 4, "enemyID": 2 },
+
+    { "beat": 74, "holeID": 2, "enemyID": 3 },
+    { "beat": 76, "holeID": 2, "enemyID": 0 },
+    { "beat": 77, "holeID": 3, "enemyID": 1 },
+    { "beat": 80, "holeID": 4, "enemyID": 4 },
+    { "beat": 81, "holeID": 4, "enemyID": 2 },
+
+    { "beat": 86, "holeID": 2, "enemyID": 3 },
+    { "beat": 88, "holeID": 3, "enemyID": 0 }
+  ]
+}

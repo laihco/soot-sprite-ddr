@@ -128,3 +128,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySoot
   enemyID: 0
+  popAnimationName: BasicSoot
+  timeOnScreen: 1.5
