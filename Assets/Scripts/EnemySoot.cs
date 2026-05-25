@@ -1,16 +1,15 @@
 using UnityEngine;
 
-/*
-
-Update Json to include:
-{"beat": 8, "hole": "Left", "enemyID": 0}
-
-*/
-
 public class EnemySoot : MonoBehaviour
 {
-    [Header("Unique ID for JSON")]
+    [Header("Settings")]
     public int enemyID;
+    
+    [Tooltip("Type the EXACT name of your animation state from the Animator window here")]
+    public string popAnimationName = "SootPop"; 
+    
+    [Tooltip("How long the enemy stays on screen before disappearing")]
+    public float timeOnScreen = 1.5f;
 
     private Animator animator;
 
@@ -19,9 +18,19 @@ public class EnemySoot : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    void Start()
+    {
+        // This prevents enemies from infinitely piling up in the same hole.
+        // It automatically destroys this game object after 'timeOnScreen' seconds.
+        Destroy(gameObject, timeOnScreen);
+    }
+
     public void PlayPop()
     {
-        // Restart animation from beginning
-        animator.Play(0, 0, 0f);
+        if (animator != null)
+        {
+            // Plays the animation using the string name you set in the inspector
+            animator.Play(popAnimationName, 0, 0f);
+        }
     }
 }

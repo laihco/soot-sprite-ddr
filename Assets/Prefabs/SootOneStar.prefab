@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1330793040689588488}
   - component: {fileID: 5225140911617216715}
   - component: {fileID: 1116109405934885465}
+  - component: {fileID: -6120650222420077326}
   m_Layer: 0
   m_Name: SootOneStar
   m_TagString: Untagged
@@ -114,3 +115,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-6120650222420077326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699723191640185713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c34a7e1f01e904595d076e66484809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemySoot
+  enemyID: 1
+  popAnimationName: SootOneStar
+  timeOnScreen: 1.5
