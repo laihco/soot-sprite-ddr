@@ -5,6 +5,7 @@
 [Ll]ogs/
 *.csproj
 *.sln
+.vs/
 .vs/soot-sprite-ddr/CopilotIndices/17.14.1577.30250/CodeChunks.db-shm
 .vs/soot-sprite-ddr/CopilotIndices/17.14.1577.30250/CodeChunks.db-wal
 .vs/soot-sprite-ddr/CopilotIndices/17.14.1577.30250/SemanticSymbols.db-shm
