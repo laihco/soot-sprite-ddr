@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using SootDDR.Gameplay;
 using SootDDR.Input;
 using SootDDR.Scoring;
@@ -13,13 +14,6 @@ namespace SootDDR.Core
 
     /// <summary>
     /// Master orchestrator for the rhythm whack-a-mole game.
-    ///
-    /// Architecture:
-    ///   • Song time is anchored to AudioSettings.dspTime for sample-accurate scheduling.
-    ///   • Eight HoleControllers are stored in a Dictionary keyed by NoteDirection.
-    ///   • When spawnTime arrives for a note, RhythmGameManager calls hole.ActivateNote().
-    ///   • On any arrow key press, the matching hole receives hole.TryHit(dspNow).
-    ///   • Scoring and UI updates flow through ScoreManager.OnHitRegistered.
     /// </summary>
     public class RhythmGameManager : MonoBehaviour
     {
@@ -29,37 +23,36 @@ namespace SootDDR.Core
         public ScoreManager       scoreManager;
         public UIManager          uiManager;
 
-        [Tooltip("All 8 HoleController instances (one per NoteDirection). " +
-                 "Wired by the scene builder or manually in Inspector.")]
+        [Header("Debug")]
+        public GameObject beatCounterGO;
+
+        private TextMeshProUGUI _beatCounterText;
+        private float _secondsPerBeat;
+
+        [Tooltip("All 8 HoleController instances (one per NoteDirection).")]
         public HoleController[] holeControllers;
 
         [Header("Difficulty")]
         public Difficulty selectedDifficulty = Difficulty.Easy;
 
         [Header("Timing (seconds)")]
-        [Tooltip("How long before the hit moment the sprite spawns and the circle starts shrinking.")]
         public float approachDuration = 1.0f;
-        [Tooltip("±seconds for a Perfect judgement.")]
         public float perfectWindow    = 0.08f;
-        [Tooltip("±seconds for a Good judgement. Notes outside this window are auto-Missed.")]
         public float goodWindow       = 0.15f;
 
         [Header("Grid")]
-        [Tooltip("Uniform spacing between hole centres (world units).")]
         public float gridSpacing      = 1.8f;
 
         // ── Runtime state ─────────────────────────────────────────────────────────
 
-        private double    _songStartDsp;
+        private double _songStartDsp;
         private GameState _state = GameState.Idle;
         private RhythmMap _map;
-        private int       _nextNoteIndex;
-        private int       _resolvedCount;
+        private int _nextNoteIndex;
+        private int _resolvedCount;
 
-        /// <summary>NoteDirection → HoleController for O(1) lookup on key press.</summary>
         private readonly Dictionary<NoteDirection, HoleController> _holes = new();
 
-        /// <summary>Current playback position in seconds, DSP-anchored.</summary>
         public float SongTime =>
             _songStartDsp > 0 ? (float)(AudioSettings.dspTime - _songStartDsp) : 0f;
 
@@ -70,6 +63,9 @@ namespace SootDDR.Core
             BuildHoleDictionary();
             SetupHoles();
             LoadMap();
+
+            if (beatCounterGO != null)
+                _beatCounterText = beatCounterGO.GetComponent<TextMeshProUGUI>();
 
             if (scoreManager != null)
                 scoreManager.OnHitRegistered += HandleHitRegistered;
@@ -88,10 +84,27 @@ namespace SootDDR.Core
             if (_state != GameState.Playing) return;
 
             float songTime = SongTime;
+
             uiManager?.UpdateSongTime(songTime);
+
+            UpdateBeatCounter(songTime);
 
             SpawnDueNotes(songTime);
             CheckPlayerInput();
+        }
+
+        // ── Beat Counter ──────────────────────────────────────────────────────────
+
+        void UpdateBeatCounter(float songTime)
+        {
+            if (_beatCounterText == null || _secondsPerBeat <= 0f)
+                return;
+
+            float currentBeat = songTime / _secondsPerBeat;
+
+            _beatCounterText.text =
+                $"Beat: {currentBeat:F2}\n" +
+                $"Measure: {Mathf.FloorToInt(currentBeat / 4f) + 1}";
         }
 
         // ── Setup ─────────────────────────────────────────────────────────────────
@@ -102,13 +115,14 @@ namespace SootDDR.Core
             if (holeControllers == null) return;
 
             NoteDirection[] allDirs = (NoteDirection[])Enum.GetValues(typeof(NoteDirection));
+
             foreach (var hc in holeControllers)
             {
                 if (hc == null) continue;
-                // Derive the direction from the GameObject name, e.g. "Hole_UpLeft"
+
                 foreach (var dir in allDirs)
                 {
-                    if (hc.gameObject.name.Contains(dir.ToString()))
+                    if (hc.CompareTag(dir.ToString()))
                     {
                         _holes[dir] = hc;
                         break;
@@ -138,10 +152,15 @@ namespace SootDDR.Core
             _map = RhythmMap.Load(path);
             if (_map == null) return;
 
+            _secondsPerBeat = 60f / _map.bpm;
+
             foreach (var note in _map.notes)
             {
                 NoteDirectionHelper.TryParse(note.hole, out note.noteDirection);
-                note.spawnTime      = note.time - approachDuration;
+
+                note.time = note.beat * _secondsPerBeat;
+                note.spawnTime = note.time - approachDuration;
+
                 note.hasBeenSpawned = false;
                 note.hasBeenJudged  = false;
             }
@@ -169,7 +188,7 @@ namespace SootDDR.Core
                 audioSource.PlayScheduled(startDsp);
 
             _songStartDsp = startDsp;
-            _state        = GameState.Playing;
+            _state = GameState.Playing;
 
             Debug.Log($"[SootWhack] Game started — map: {_map.songName}, notes: {_map.notes.Length}");
         }
@@ -234,6 +253,7 @@ namespace SootDDR.Core
         {
             if (_state == GameState.Finished) return;
             _state = GameState.Finished;
+
             Debug.Log($"[SootWhack] Game Over — Score: {scoreManager?.TotalScore} | MaxCombo: {scoreManager?.MaxCombo}");
         }
     }
