@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\avama\\CMPM170\\soot-sprite-ddr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95B48A1C-F411-683A-9A7B-3D6A39EE1725}|Assembly-CSharp.csproj|C:\\Users\\avama\\CMPM170\\soot-sprite-ddr\\assets\\scripts\\ui\\mmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B48A1C-F411-683A-9A7B-3D6A39EE1725}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B48A1C-F411-683A-9A7B-3D6A39EE1725}|Assembly-CSharp.csproj|c:\\users\\avama\\cmpm170\\soot-sprite-ddr\\assets\\scripts\\ui\\optionsmenubuttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B48A1C-F411-683A-9A7B-3D6A39EE1725}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\optionsmenubuttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B48A1C-F411-683A-9A7B-3D6A39EE1725}|Assembly-CSharp.csproj|C:\\Users\\avama\\CMPM170\\soot-sprite-ddr\\assets\\scripts\\ui\\creditsmenubuttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B48A1C-F411-683A-9A7B-3D6A39EE1725}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\creditsmenubuttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B48A1C-F411-683A-9A7B-3D6A39EE1725}|Assembly-CSharp.csproj|c:\\users\\avama\\cmpm170\\soot-sprite-ddr\\assets\\scripts\\ui\\mmbuttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B48A1C-F411-683A-9A7B-3D6A39EE1725}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mmbuttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OptionsMenuButtonManager.cs",
+              "DocumentMoniker": "C:\\Users\\avama\\CMPM170\\soot-sprite-ddr\\Assets\\Scripts\\UI\\OptionsMenuButtonManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\OptionsMenuButtonManager.cs",
+              "ToolTip": "C:\\Users\\avama\\CMPM170\\soot-sprite-ddr\\Assets\\Scripts\\UI\\OptionsMenuButtonManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\OptionsMenuButtonManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T19:16:47.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreditsMenuButtonManager.cs",
+              "DocumentMoniker": "C:\\Users\\avama\\CMPM170\\soot-sprite-ddr\\Assets\\Scripts\\UI\\CreditsMenuButtonManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\CreditsMenuButtonManager.cs",
+              "ToolTip": "C:\\Users\\avama\\CMPM170\\soot-sprite-ddr\\Assets\\Scripts\\UI\\CreditsMenuButtonManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\CreditsMenuButtonManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T18:56:51.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MMButtonManager.cs",
+              "DocumentMoniker": "C:\\Users\\avama\\CMPM170\\soot-sprite-ddr\\Assets\\Scripts\\UI\\MMButtonManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MMButtonManager.cs",
+              "ToolTip": "C:\\Users\\avama\\CMPM170\\soot-sprite-ddr\\Assets\\Scripts\\UI\\MMButtonManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MMButtonManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T17:29:20.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MMManager.cs",
+              "DocumentMoniker": "C:\\Users\\avama\\CMPM170\\soot-sprite-ddr\\Assets\\Scripts\\UI\\MMManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MMManager.cs",
+              "ToolTip": "C:\\Users\\avama\\CMPM170\\soot-sprite-ddr\\Assets\\Scripts\\UI\\MMManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MMManager.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAIA8wGsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T17:21:45.292Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
