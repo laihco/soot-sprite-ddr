@@ -5,11 +5,11 @@ public class MMManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public static MMManager _;
-    
+
     [SerializeField] private bool _debugMode;
     public enum MMButtons { Play, Options, Credits, Quit };
-    public enum CreditsButtons { Back };
-    public enum OptionsButtons { Back };
+    public enum CreditsBack { Back };
+    public enum OptionsBack { Back };
 
     [SerializeField] private GameObject _MainMenuContainer;
     [SerializeField] private GameObject _CreditsMenuContainer;
@@ -29,6 +29,7 @@ public class MMManager : MonoBehaviour
         }
     }
 
+
     private void Start()
     {
         OpenMenu(_MainMenuContainer);
@@ -45,6 +46,7 @@ public class MMManager : MonoBehaviour
                 OpenOptionsMenu();
                 break;
             case MMButtons.Credits:
+                Debug.Log("clicking credits button");
                 OpenCreditsMenu();
                 break;
             case MMButtons.Quit:
@@ -62,21 +64,21 @@ public class MMManager : MonoBehaviour
         SceneManager.LoadScene(_sceneToLoadAfterClickingBack);
     }
 
-    public void CreditsButtonClicked(CreditsButtons button)
+    public void CreditsButtonClicked(CreditsBack button)
     {
         switch (button)
         {
-            case CreditsButtons.Back:
+            case CreditsBack.Back:
                 ReturnToMM();
                 break;
         }
     }
 
-    public void OptionsButtonClicked(OptionsButtons button)
+    public void OptionsButtonClicked(OptionsBack button)
     {
         switch (button)
         {
-            case OptionsButtons.Back:
+            case OptionsBack.Back:
                 ReturnToMM();
                 break;
         }
@@ -86,6 +88,7 @@ public class MMManager : MonoBehaviour
     {
         SceneManager.LoadScene(_sceneToLoadAfterClickingPlay);
     }
+
 
     public void QuitGame()
     {
@@ -112,10 +115,12 @@ public class MMManager : MonoBehaviour
 
     public void OpenCreditsMenu()
     {
+        Debug.Log("called OpenCreditsMenu");
         OpenMenu(_CreditsMenuContainer);
     }
     public void OpenMenu(GameObject menu)
     {
+        Debug.Log("Opening menu: " + menu.name);
         _MainMenuContainer.SetActive(menu == _MainMenuContainer);
         _CreditsMenuContainer.SetActive(menu == _CreditsMenuContainer);
         _OptionsMenuContainer.SetActive(menu == _OptionsMenuContainer);

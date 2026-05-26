@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   _debugMode: 1
-  _MainMenuContainer: {fileID: 2028545394}
+  _MainMenuContainer: {fileID: 1484887294}
   _CreditsMenuContainer: {fileID: 128960296}
   _OptionsMenuContainer: {fileID: 1381643823}
   _sceneToLoadAfterClickingPlay: SootWhackPrototype
@@ -952,7 +952,7 @@ PrefabInstance:
       objectReference: {fileID: 1768898075}
     - target: {fileID: 8788676044186622954, guid: ca7eb2ce673b8a24482101423888058d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: ButtonClicked
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

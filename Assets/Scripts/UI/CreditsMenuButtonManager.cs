@@ -3,7 +3,7 @@ using UnityEngine;
 public class CreditsMenuButtonManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] private MMManager.CreditsButtons _buttonType;
+    [SerializeField] private MMManager.CreditsBack _buttonType;
 
     public void ButtonClicked()
     {
