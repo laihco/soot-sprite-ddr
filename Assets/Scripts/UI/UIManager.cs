@@ -5,11 +5,6 @@ using SootDDR.Scoring;
 
 namespace SootDDR.UI
 {
-    /// <summary>
-    /// Manages the on-screen debug overlay: score, combo, song time, and the
-    /// center-screen hit-feedback flash (PERFECT / GOOD / MISS).
-    /// References are wired in the scene (or by SootDDRSceneBuilder at build time).
-    /// </summary>
     public class UIManager : MonoBehaviour
     {
         [Header("Debug Panel (top-left)")]
@@ -18,60 +13,88 @@ namespace SootDDR.UI
         public Text songTimeText;
 
         [Header("Hit Feedback (center screen)")]
-        public Text  hitFeedbackText;
+        public Text hitFeedbackText;
+
         [Tooltip("How long the hit result text stays visible (seconds).")]
         public float feedbackDuration = 0.6f;
 
         private Coroutine _feedbackCoroutine;
 
-        // ── Public update methods (called by RhythmGameManager / ScoreManager) ───
-
+        // ─────────────────────────────────────────────
+        // SCORE UI
+        // ─────────────────────────────────────────────
         public void UpdateScore(int score)
         {
-            if (scoreText != null) scoreText.text = $"Score: {score}";
+            if (scoreText != null)
+                scoreText.text = $"Score: {score}";
         }
 
         public void UpdateCombo(int combo)
         {
             if (comboText != null)
-                comboText.text = combo > 1 ? $"Combo: {combo}x" : string.Empty;
+                comboText.text = combo > 1 ? $"Combo: {combo}x" : "Combo: 0";
         }
 
         public void UpdateSongTime(float songTime)
         {
-            if (songTimeText != null) songTimeText.text = $"Time: {songTime:F2}s";
+            if (songTimeText != null)
+                songTimeText.text = $"Time: {songTime:F2}s";
         }
 
-        /// <summary>Interrupts any existing feedback flash and shows the new result.</summary>
-        public void ShowHitFeedback(HitResult result)
+        // ─────────────────────────────────────────────
+        // HIT FEEDBACK (WITH COMBO DISPLAY)
+        // ─────────────────────────────────────────────
+        public void ShowHitFeedback(HitResult result, int combo = -1)
         {
-            if (hitFeedbackText == null) return;
-            if (_feedbackCoroutine != null) StopCoroutine(_feedbackCoroutine);
-            _feedbackCoroutine = StartCoroutine(FlashFeedback(result));
+            if (hitFeedbackText == null)
+                return;
+
+            if (_feedbackCoroutine != null)
+                StopCoroutine(_feedbackCoroutine);
+
+            _feedbackCoroutine = StartCoroutine(FlashFeedback(result, combo));
         }
 
-        // ── Private ──────────────────────────────────────────────────────────────
-
-        private IEnumerator FlashFeedback(HitResult result)
+        // ─────────────────────────────────────────────
+        // INTERNAL DISPLAY
+        // ─────────────────────────────────────────────
+        private IEnumerator FlashFeedback(HitResult result, int combo)
         {
-            hitFeedbackText.text = result switch
-            {
-                HitResult.Perfect => "PERFECT",
-                HitResult.Good    => "GOOD",
-                HitResult.Miss    => "MISS",
-                _                 => string.Empty,
-            };
-
-            hitFeedbackText.color = result switch
-            {
-                HitResult.Perfect => Color.yellow,
-                HitResult.Good    => Color.green,
-                HitResult.Miss    => Color.red,
-                _                 => Color.white,
-            };
-
             hitFeedbackText.gameObject.SetActive(true);
+
+            string comboTextInline =
+                combo >= 0 ? $" x{combo}" : "";
+
+            switch (result)
+            {
+                case HitResult.Perfect:
+                    hitFeedbackText.text = "PERFECT" + comboTextInline;
+                    hitFeedbackText.color = Color.yellow;
+                    break;
+
+                case HitResult.Good:
+                    hitFeedbackText.text = "GOOD" + comboTextInline;
+                    hitFeedbackText.color = Color.green;
+                    break;
+
+                case HitResult.Bad:
+                    hitFeedbackText.text = "BAD" + comboTextInline;
+                    hitFeedbackText.color = new Color(1f, 0.6f, 0f);
+                    break;
+
+                case HitResult.Miss:
+                    hitFeedbackText.text = "MISS" + comboTextInline;
+                    hitFeedbackText.color = Color.red;
+                    break;
+
+                default:
+                    hitFeedbackText.text = "";
+                    break;
+            }
+
             yield return new WaitForSeconds(feedbackDuration);
+
+            hitFeedbackText.text = "";
             hitFeedbackText.gameObject.SetActive(false);
         }
     }
