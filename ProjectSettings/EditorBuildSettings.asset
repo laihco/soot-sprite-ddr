@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5554901d8477f434f9b5520b8b7d10d9
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/SootDDRPrototype.unity
     guid: 98675222a1f785b4db9c2c9df7afcd95
+  - enabled: 1
+    path: Assets/Scenes/SootWhackPrototype.unity
+    guid: 6e1bc664b8ca9624188d3cef63ff3081
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
