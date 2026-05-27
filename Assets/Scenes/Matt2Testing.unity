@@ -397,9 +397,9 @@ MonoBehaviour:
   scoreManager: {fileID: 1273462113}
   uiManager: {fileID: 560033654}
   inputManager: {fileID: 1049858033}
-  perfectWindow: 1
-  goodWindow: 1.25
-  badWindow: 1.5
+  perfectWindow: 0.5
+  goodWindow: 0.75
+  badWindow: 1.25
   inputBufferWindow: 0.1
   debugTMP: {fileID: 89085440}
   globalOffset: -2
