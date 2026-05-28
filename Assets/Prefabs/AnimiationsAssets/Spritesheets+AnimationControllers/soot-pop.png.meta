@@ -1,70 +1,70 @@
 fileFormatVersion: 2
-guid: 62298babeeb024f42931ef19a3f6fb55
+guid: c402f280b3feb0940a0456564864171c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1678352663653099489
-    second: soot-pop (1)_0
+      213: -8870032566475039447
+    second: soot-pop_0
   - first:
-      213: -146880088532497347
-    second: soot-pop (1)_1
+      213: 3401990613621366960
+    second: soot-pop_1
   - first:
-      213: 3818646674150378393
-    second: soot-pop (1)_2
+      213: 4810771951875077544
+    second: soot-pop_2
   - first:
-      213: -586579842553508105
-    second: soot-pop (1)_3
+      213: 9062570032457398353
+    second: soot-pop_3
   - first:
-      213: 2060180839164421994
-    second: soot-pop (1)_4
+      213: 8803264273561047864
+    second: soot-pop_4
   - first:
-      213: 5337884533348523562
-    second: soot-pop (1)_5
+      213: -6346833092305223109
+    second: soot-pop_5
   - first:
-      213: 8456270411374614105
-    second: soot-pop (1)_6
+      213: 5616186521030782729
+    second: soot-pop_6
   - first:
-      213: 2203215752838508016
-    second: soot-pop (1)_7
+      213: -863211557635326463
+    second: soot-pop_7
   - first:
-      213: -7205465335848809031
-    second: soot-pop (1)_8
+      213: -4375432454239762949
+    second: soot-pop_8
   - first:
-      213: -1481283828130272042
-    second: soot-pop (1)_9
+      213: -6865024578976269651
+    second: soot-pop_9
   - first:
-      213: -4169988023051768988
-    second: soot-pop (1)_10
+      213: -8137060370072465432
+    second: soot-pop_10
   - first:
-      213: -8374527947655885468
-    second: soot-pop (1)_11
+      213: -7527926876159059730
+    second: soot-pop_11
   - first:
-      213: -5455855540211166907
-    second: soot-pop (1)_12
+      213: 6845381975184749387
+    second: soot-pop_12
   - first:
-      213: 5405995745221826157
-    second: soot-pop (1)_13
+      213: 8999517653624753573
+    second: soot-pop_13
   - first:
-      213: -3179664109299313589
-    second: soot-pop (1)_14
+      213: 1894366001262443162
+    second: soot-pop_14
   - first:
-      213: -565732636074439256
-    second: soot-pop (1)_15
+      213: 8765657423309893538
+    second: soot-pop_15
   - first:
-      213: 3451102131292161587
-    second: soot-pop (1)_16
+      213: -8454105285525212929
+    second: soot-pop_16
   - first:
-      213: 4346555216325415419
-    second: soot-pop (1)_17
+      213: -8248320686610140572
+    second: soot-pop_17
   - first:
-      213: 5364796253471008954
-    second: soot-pop (1)_18
+      213: -5110207181139214426
+    second: soot-pop_18
   - first:
-      213: 8100439284873745099
-    second: soot-pop (1)_19
+      213: -146558245692810109
+    second: soot-pop_19
   - first:
-      213: -395242089542953967
-    second: soot-pop (1)_20
+      213: -3182023180472242295
+    second: soot-pop_20
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -135,7 +135,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -186,13 +186,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: soot-pop (1)_1
+      name: soot-pop_0
       rect:
         serializedVersion: 2
-        x: 256
-        y: 288
-        width: 64
-        height: 96
+        x: 288
+        y: 384
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,20 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3c4172765d26fdf0800000000000000
-      internalID: -146880088532497347
+      spriteID: 92ddb11506057e480800000000000000
+      internalID: -8870032566475039447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_2
+      name: soot-pop_1
       rect:
         serializedVersion: 2
-        x: 320
-        y: 288
-        width: 64
-        height: 96
+        x: 384
+        y: 384
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +223,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99bc5770bee8ef430800000000000000
-      internalID: 3818646674150378393
+      spriteID: 0b06d16407c463f20800000000000000
+      internalID: 3401990613621366960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_3
+      name: soot-pop_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a53de60a9b43c240800000000000000
+      internalID: 4810771951875077544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 64
-        height: 96
+        y: 256
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +267,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fe8134bdbc0cd7f0800000000000000
-      internalID: -586579842553508105
+      spriteID: 15839b0dd67b4cd70800000000000000
+      internalID: 9062570032457398353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_4
+      name: soot-pop_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 96
+        x: 96
+        y: 256
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,42 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a672673de8b379c10800000000000000
-      internalID: 2060180839164421994
+      spriteID: 8335e71173a7b2a70800000000000000
+      internalID: 8803264273561047864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_5
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2e5a46a3b9f31a40800000000000000
-      internalID: 5337884533348523562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: soot-pop (1)_6
+      name: soot-pop_5
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
-        width: 64
-        height: 96
+        y: 256
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,20 +311,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95651aac225ba5570800000000000000
-      internalID: 8456270411374614105
+      spriteID: b320474fde48be7a0800000000000000
+      internalID: -6346833092305223109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_7
+      name: soot-pop_6
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 96
+        x: 288
+        y: 256
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,20 +333,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fdeb77dd05639e10800000000000000
-      internalID: 2203215752838508016
+      spriteID: 90f606292e3b0fd40800000000000000
+      internalID: 5616186521030782729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_8
+      name: soot-pop_7
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 96
+        x: 384
+        y: 256
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,20 +355,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bd4757047b010c90800000000000000
-      internalID: -7205465335848809031
+      spriteID: 10e722d69a14504f0800000000000000
+      internalID: -863211557635326463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_9
+      name: soot-pop_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5c25a6d575743c0800000000000000
+      internalID: -4375432454239762949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop_9
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 64
-        height: 96
+        y: 128
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,20 +399,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6dca3ccd43c617be0800000000000000
-      internalID: -1481283828130272042
+      spriteID: daa3bc394888ab0a0800000000000000
+      internalID: -6865024578976269651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_10
+      name: soot-pop_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 64
-        height: 96
+        x: 96
+        y: 128
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,42 +421,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46bad509cf93126c0800000000000000
-      internalID: -4169988023051768988
+      spriteID: 8ef0ce594ba531f80800000000000000
+      internalID: -8137060370072465432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_11
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 96
-        width: 64
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46dc366a333b7cb80800000000000000
-      internalID: -8374527947655885468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: soot-pop (1)_12
+      name: soot-pop_11
       rect:
         serializedVersion: 2
         x: 192
-        y: 96
-        width: 64
-        height: 96
+        y: 128
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,20 +443,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 541ddd3ea48e844b0800000000000000
-      internalID: -5455855540211166907
+      spriteID: ee85c6b046e678790800000000000000
+      internalID: -7527926876159059730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_13
+      name: soot-pop_12
       rect:
         serializedVersion: 2
-        x: 256
-        y: 96
-        width: 64
-        height: 96
+        x: 288
+        y: 128
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,20 +465,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d665833fc74f50b40800000000000000
-      internalID: 5405995745221826157
+      spriteID: b43bfb653aeaffe50800000000000000
+      internalID: 6845381975184749387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_14
+      name: soot-pop_13
       rect:
         serializedVersion: 2
-        x: 320
-        y: 96
-        width: 64
-        height: 96
+        x: 384
+        y: 128
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,20 +487,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b44d724d6509fd3d0800000000000000
-      internalID: -3179664109299313589
+      spriteID: 5ad092edf95b4ec70800000000000000
+      internalID: 8999517653624753573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_15
+      name: soot-pop_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a33d367d32a4a10800000000000000
+      internalID: 1894366001262443162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soot-pop_15
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 96
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,20 +531,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ad00f43a2d1628f0800000000000000
-      internalID: -565732636074439256
+      spriteID: 2afe62bebfed5a970800000000000000
+      internalID: 8765657423309893538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_16
+      name: soot-pop_16
       rect:
         serializedVersion: 2
-        x: 64
+        x: 96
         y: 0
-        width: 64
-        height: 96
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,42 +553,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 336434b8a17c4ef20800000000000000
-      internalID: 3451102131292161587
+      spriteID: ff0748ad80cfcaa80800000000000000
+      internalID: -8454105285525212929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_17
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf192b1b0f0125c30800000000000000
-      internalID: 4346555216325415419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: soot-pop (1)_18
+      name: soot-pop_17
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 64
-        height: 96
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,20 +575,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab86c74c4c5937a40800000000000000
-      internalID: 5364796253471008954
+      spriteID: 462b8197904188d80800000000000000
+      internalID: -8248320686610140572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_19
+      name: soot-pop_18
       rect:
         serializedVersion: 2
-        x: 256
+        x: 288
         y: 0
-        width: 64
-        height: 96
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -597,20 +597,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc2d4839c9a8a6070800000000000000
-      internalID: 8100439284873745099
+      spriteID: 6affb8fc4a5e419b0800000000000000
+      internalID: -5110207181139214426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_20
+      name: soot-pop_19
       rect:
         serializedVersion: 2
-        x: 320
+        x: 384
         y: 0
-        width: 64
-        height: 96
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -619,30 +619,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1145284e961d38af0800000000000000
-      internalID: -395242089542953967
+      spriteID: 38c53925d0257fdf0800000000000000
+      internalID: -146558245692810109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soot-pop (1)_0
+      name: soot-pop_20
       rect:
         serializedVersion: 2
-        x: 192
-        y: 288
-        width: 64
-        height: 96
+        x: 480
+        y: 0
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ae7c03b05abac8f47b611f3dda028a2c
-      internalID: 1678352663653099489
+      spriteID: 98fa4e4c6ce27d3d0800000000000000
+      internalID: -3182023180472242295
       vertices: []
       indices: 
       edges: []
@@ -651,7 +651,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 42e22d1faed2291448980293ab140432
+    spriteID: 0a4326ac04bde6b4a8266711f35e7a52
     internalID: 0
     vertices: []
     indices: 
@@ -661,29 +661,29 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":64.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":96.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      soot-pop (1)_0: 1678352663653099489
-      soot-pop (1)_1: -146880088532497347
-      soot-pop (1)_10: -4169988023051768988
-      soot-pop (1)_11: -8374527947655885468
-      soot-pop (1)_12: -5455855540211166907
-      soot-pop (1)_13: 5405995745221826157
-      soot-pop (1)_14: -3179664109299313589
-      soot-pop (1)_15: -565732636074439256
-      soot-pop (1)_16: 3451102131292161587
-      soot-pop (1)_17: 4346555216325415419
-      soot-pop (1)_18: 5364796253471008954
-      soot-pop (1)_19: 8100439284873745099
-      soot-pop (1)_2: 3818646674150378393
-      soot-pop (1)_20: -395242089542953967
-      soot-pop (1)_3: -586579842553508105
-      soot-pop (1)_4: 2060180839164421994
-      soot-pop (1)_5: 5337884533348523562
-      soot-pop (1)_6: 8456270411374614105
-      soot-pop (1)_7: 2203215752838508016
-      soot-pop (1)_8: -7205465335848809031
-      soot-pop (1)_9: -1481283828130272042
+      soot-pop_0: -8870032566475039447
+      soot-pop_1: 3401990613621366960
+      soot-pop_10: -8137060370072465432
+      soot-pop_11: -7527926876159059730
+      soot-pop_12: 6845381975184749387
+      soot-pop_13: 8999517653624753573
+      soot-pop_14: 1894366001262443162
+      soot-pop_15: 8765657423309893538
+      soot-pop_16: -8454105285525212929
+      soot-pop_17: -8248320686610140572
+      soot-pop_18: -5110207181139214426
+      soot-pop_19: -146558245692810109
+      soot-pop_2: 4810771951875077544
+      soot-pop_20: -3182023180472242295
+      soot-pop_3: 9062570032457398353
+      soot-pop_4: 8803264273561047864
+      soot-pop_5: -6346833092305223109
+      soot-pop_6: 5616186521030782729
+      soot-pop_7: -863211557635326463
+      soot-pop_8: -4375432454239762949
+      soot-pop_9: -6865024578976269651
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

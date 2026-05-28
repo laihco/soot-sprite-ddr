@@ -103,7 +103,7 @@ Animator:
   m_GameObject: {fileID: 4051564258612978486}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 030311ce4ee5d1b4f82100f9d7ac8992, type: 2}
+  m_Controller: {fileID: 9100000, guid: 228f680089f5c3342b082c8d3cdd7a4d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -129,4 +129,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemySoot
   enemyID: 3
   popAnimationName: SootTwoStar
-  timeOnScreen: 1.5
