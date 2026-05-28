@@ -276,9 +276,9 @@ TextureImporter:
       name: soot-pop-two-star_0
       rect:
         serializedVersion: 2
-        x: 64
+        x: 96
         y: 384
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -298,9 +298,9 @@ TextureImporter:
       name: soot-pop-two-star_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 192
         y: 384
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -320,9 +320,9 @@ TextureImporter:
       name: soot-pop-two-star_2
       rect:
         serializedVersion: 2
-        x: 192
+        x: 288
         y: 384
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -342,9 +342,9 @@ TextureImporter:
       name: soot-pop-two-star_3
       rect:
         serializedVersion: 2
-        x: 256
+        x: 384
         y: 384
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -364,9 +364,9 @@ TextureImporter:
       name: soot-pop-two-star_4
       rect:
         serializedVersion: 2
-        x: 320
+        x: 480
         y: 384
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -386,9 +386,9 @@ TextureImporter:
       name: soot-pop-two-star_5
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
-        width: 64
+        x: 0
+        y: 256
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -408,9 +408,9 @@ TextureImporter:
       name: soot-pop-two-star_6
       rect:
         serializedVersion: 2
-        x: 0
+        x: 96
         y: 256
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -430,9 +430,9 @@ TextureImporter:
       name: soot-pop-two-star_7
       rect:
         serializedVersion: 2
-        x: 64
+        x: 192
         y: 256
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -452,9 +452,9 @@ TextureImporter:
       name: soot-pop-two-star_8
       rect:
         serializedVersion: 2
-        x: 128
+        x: 288
         y: 256
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -474,9 +474,9 @@ TextureImporter:
       name: soot-pop-two-star_9
       rect:
         serializedVersion: 2
-        x: 192
+        x: 384
         y: 256
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -496,9 +496,9 @@ TextureImporter:
       name: soot-pop-two-star_10
       rect:
         serializedVersion: 2
-        x: 256
+        x: 480
         y: 256
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -518,9 +518,9 @@ TextureImporter:
       name: soot-pop-two-star_11
       rect:
         serializedVersion: 2
-        x: 320
-        y: 256
-        width: 64
+        x: 0
+        y: 128
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -540,9 +540,9 @@ TextureImporter:
       name: soot-pop-two-star_12
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
-        width: 64
+        x: 96
+        y: 128
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -562,9 +562,9 @@ TextureImporter:
       name: soot-pop-two-star_13
       rect:
         serializedVersion: 2
-        x: 0
+        x: 192
         y: 128
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -584,9 +584,9 @@ TextureImporter:
       name: soot-pop-two-star_14
       rect:
         serializedVersion: 2
-        x: 64
+        x: 288
         y: 128
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -606,9 +606,9 @@ TextureImporter:
       name: soot-pop-two-star_15
       rect:
         serializedVersion: 2
-        x: 128
+        x: 384
         y: 128
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -628,9 +628,9 @@ TextureImporter:
       name: soot-pop-two-star_16
       rect:
         serializedVersion: 2
-        x: 192
+        x: 480
         y: 128
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -650,9 +650,9 @@ TextureImporter:
       name: soot-pop-two-star_17
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
+        x: 0
+        y: 0
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -672,9 +672,9 @@ TextureImporter:
       name: soot-pop-two-star_18
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
+        x: 96
+        y: 0
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -694,9 +694,9 @@ TextureImporter:
       name: soot-pop-two-star_19
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
+        x: 192
+        y: 0
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -716,9 +716,9 @@ TextureImporter:
       name: soot-pop-two-star_20
       rect:
         serializedVersion: 2
-        x: 0
+        x: 288
         y: 0
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -738,9 +738,9 @@ TextureImporter:
       name: soot-pop-two-star_21
       rect:
         serializedVersion: 2
-        x: 64
+        x: 384
         y: 0
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -760,9 +760,9 @@ TextureImporter:
       name: soot-pop-two-star_22
       rect:
         serializedVersion: 2
-        x: 128
+        x: 480
         y: 0
-        width: 64
+        width: 96
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -774,50 +774,6 @@ TextureImporter:
       bones: []
       spriteID: 9248f3fe74cc970c0800000000000000
       internalID: -4577402936916736983
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: soot-pop-two-star_23
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6433aad03700887c0800000000000000
-      internalID: -4069001769178746042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: soot-pop-two-star_24
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dcbd9037b1de88080800000000000000
-      internalID: -9184830737872200755
       vertices: []
       indices: 
       edges: []
@@ -836,7 +792,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":4.0},"gridSpriteSize":{"x":64.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":96.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       soot-pop-two-star_0: 1550189483623484327
       soot-pop-two-star_1: -2888109583435913613
@@ -854,8 +810,6 @@ TextureImporter:
       soot-pop-two-star_20: -171649675469406409
       soot-pop-two-star_21: -4089661231633296408
       soot-pop-two-star_22: -4577402936916736983
-      soot-pop-two-star_23: -4069001769178746042
-      soot-pop-two-star_24: -9184830737872200755
       soot-pop-two-star_3: 2399816298359443677
       soot-pop-two-star_4: -8342462278896231903
       soot-pop-two-star_5: -5652167763487305196

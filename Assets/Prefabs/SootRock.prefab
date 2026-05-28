@@ -129,4 +129,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemySoot
   enemyID: 4
   popAnimationName: SootRock
-  timeOnScreen: 1.5
