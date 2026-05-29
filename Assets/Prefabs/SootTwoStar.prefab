@@ -129,4 +129,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemySoot
   enemyID: 2
   popAnimationName: SootTwoStar
-  timeOnScreen: 1.5

@@ -192,10 +192,10 @@ TextureImporter:
       name: soot-pop-with-rock_0
       rect:
         serializedVersion: 2
-        x: 192
+        x: 0
         y: 384
-        width: 64
-        height: 96
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: soot-pop-with-rock_1
       rect:
         serializedVersion: 2
-        x: 256
+        x: 96
         y: 384
-        width: 64
-        height: 96
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: soot-pop-with-rock_2
       rect:
         serializedVersion: 2
-        x: 320
+        x: 192
         y: 384
-        width: 64
-        height: 96
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +258,10 @@ TextureImporter:
       name: soot-pop-with-rock_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 288
-        width: 64
-        height: 96
+        x: 288
+        y: 384
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +280,10 @@ TextureImporter:
       name: soot-pop-with-rock_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 288
-        width: 64
-        height: 96
+        x: 384
+        y: 384
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: soot-pop-with-rock_5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 288
-        width: 64
-        height: 96
+        x: 480
+        y: 384
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +324,10 @@ TextureImporter:
       name: soot-pop-with-rock_6
       rect:
         serializedVersion: 2
-        x: 192
-        y: 288
-        width: 64
-        height: 96
+        x: 0
+        y: 256
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,10 +346,10 @@ TextureImporter:
       name: soot-pop-with-rock_7
       rect:
         serializedVersion: 2
-        x: 256
-        y: 288
-        width: 64
-        height: 96
+        x: 96
+        y: 256
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: soot-pop-with-rock_8
       rect:
         serializedVersion: 2
-        x: 320
-        y: 288
-        width: 64
-        height: 96
+        x: 192
+        y: 256
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,10 +390,10 @@ TextureImporter:
       name: soot-pop-with-rock_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 64
-        height: 96
+        x: 288
+        y: 256
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +412,10 @@ TextureImporter:
       name: soot-pop-with-rock_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 96
+        x: 384
+        y: 256
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +434,10 @@ TextureImporter:
       name: soot-pop-with-rock_11
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 96
+        x: 480
+        y: 256
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +456,10 @@ TextureImporter:
       name: soot-pop-with-rock_12
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 96
+        x: 0
+        y: 128
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +478,10 @@ TextureImporter:
       name: soot-pop-with-rock_13
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 96
+        x: 96
+        y: 128
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,10 +500,10 @@ TextureImporter:
       name: soot-pop-with-rock_14
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 96
+        x: 192
+        y: 128
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -522,10 +522,10 @@ TextureImporter:
       name: soot-pop-with-rock_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 64
-        height: 96
+        x: 288
+        y: 128
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,10 +544,10 @@ TextureImporter:
       name: soot-pop-with-rock_16
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 64
-        height: 96
+        x: 384
+        y: 128
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -566,10 +566,10 @@ TextureImporter:
       name: soot-pop-with-rock_17
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
-        width: 64
-        height: 96
+        x: 480
+        y: 128
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,10 +588,10 @@ TextureImporter:
       name: soot-pop-with-rock_18
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
-        width: 64
-        height: 96
+        x: 0
+        y: 0
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,10 +610,10 @@ TextureImporter:
       name: soot-pop-with-rock_19
       rect:
         serializedVersion: 2
-        x: 256
-        y: 96
-        width: 64
-        height: 96
+        x: 96
+        y: 0
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,10 +632,10 @@ TextureImporter:
       name: soot-pop-with-rock_20
       rect:
         serializedVersion: 2
-        x: 320
-        y: 96
-        width: 64
-        height: 96
+        x: 192
+        y: 0
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,10 +654,10 @@ TextureImporter:
       name: soot-pop-with-rock_21
       rect:
         serializedVersion: 2
-        x: 0
+        x: 288
         y: 0
-        width: 64
-        height: 96
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -676,10 +676,10 @@ TextureImporter:
       name: soot-pop-with-rock_22
       rect:
         serializedVersion: 2
-        x: 64
+        x: 384
         y: 0
-        width: 64
-        height: 96
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -698,10 +698,10 @@ TextureImporter:
       name: soot-pop-with-rock_23
       rect:
         serializedVersion: 2
-        x: 128
+        x: 480
         y: 0
-        width: 64
-        height: 96
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,28 +712,6 @@ TextureImporter:
       bones: []
       spriteID: 92e2a200a1599d44cb3ed1453ca1b8e4
       internalID: -27070416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: soot-pop-with-rock_24
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4002de107501d444e98189cb89dc859f
-      internalID: -1023220643
       vertices: []
       indices: 
       edges: []
@@ -752,7 +730,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":5.0},"gridSpriteSize":{"x":64.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":96.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       soot-pop-with-rock_0: -7011171481930512405
       soot-pop-with-rock_1: 7972652425838036521
@@ -771,7 +749,6 @@ TextureImporter:
       soot-pop-with-rock_21: -3864034096363902140
       soot-pop-with-rock_22: 1393989067
       soot-pop-with-rock_23: -27070416
-      soot-pop-with-rock_24: -1023220643
       soot-pop-with-rock_3: 4871036408923405033
       soot-pop-with-rock_4: -5126282614728448169
       soot-pop-with-rock_5: -5792811455081140952
