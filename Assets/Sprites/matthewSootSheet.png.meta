@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: b7a6a3c36fc35c041b8cc1314be9a3d4
+guid: 4dd10c8d517f8544a9f0735c907e5dfb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3204290344396990444
-    second: sprite_sheet (3)_0
+      213: -6629963012113576965
+    second: matthewSootSheet_0
+  - first:
+      213: -3041416838011041570
+    second: matthewSootSheet_1
+  - first:
+      213: -1845773375636496928
+    second: matthewSootSheet_2
+  - first:
+      213: 1052631393241515897
+    second: matthewSootSheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite_sheet (3)_0
+      name: matthewSootSheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 262
-        height: 256
+        x: 2
+        y: 35
+        width: 27
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 262, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce72ff6571de77c20800000000000000
-      internalID: 3204290344396990444
+      spriteID: bfbcdfc74c3adf3a0800000000000000
+      internalID: -6629963012113576965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matthewSootSheet_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 34
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8c57cff77bac5d0800000000000000
+      internalID: -3041416838011041570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matthewSootSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed1059e4ee7266e0800000000000000
+      internalID: -1845773375636496928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matthewSootSheet_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977c591dca2bb9e00800000000000000
+      internalID: 1052631393241515897
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e21e70c3d494c9242850e062ca5a459d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sprite_sheet (3)_0: 3204290344396990444
+      matthewSootSheet_0: -6629963012113576965
+      matthewSootSheet_1: -3041416838011041570
+      matthewSootSheet_2: -1845773375636496928
+      matthewSootSheet_3: 1052631393241515897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
