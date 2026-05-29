@@ -575,6 +575,8 @@ MonoBehaviour:
   inputBufferWindow: 0.1
   debugTMP: {fileID: 89085440}
   globalOffset: -2
+  nextSceneName: GameOver
+  endDelay: 3
 --- !u!4 &226476153
 Transform:
   m_ObjectHideFlags: 0

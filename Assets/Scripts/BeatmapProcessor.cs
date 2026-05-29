@@ -6,6 +6,8 @@ using SootDDR.Input;
 using SootDDR.Scoring;
 using SootDDR.UI;
 using SootDDR.Core;
+using UnityEngine.SceneManagement;
+
 
 public class BeatmapProcessor : MonoBehaviour
 {
@@ -38,6 +40,12 @@ public class BeatmapProcessor : MonoBehaviour
 
     [Header("GLOBAL OFFSET (TUNE THIS)")]
     public float globalOffset = 0f;
+
+    [Header("Game Over")]
+    public float gameOverTime = 93f;
+    public string gameOverScene = "GameOver";
+
+    private bool gameOverTriggered = false;
 
     private Dictionary<int, HoleSetup> holeLookup;
     private BeatmapData beatmap;
@@ -84,6 +92,18 @@ public class BeatmapProcessor : MonoBehaviour
         HandleInput(songTime);
         HandleMisses(songTime);
         HandleDebug(songTime);
+
+        if (!gameOverTriggered && songTime >= gameOverTime)
+        {
+            gameOverTriggered = true;
+
+            if (scoreManager != null)
+            {
+                scoreManager.SaveFinalScore();
+            }
+
+            SceneManager.LoadScene(gameOverScene);
+        }
     }
 
     float GetSongTime()
