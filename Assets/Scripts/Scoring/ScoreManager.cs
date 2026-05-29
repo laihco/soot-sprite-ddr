@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace SootDDR.Scoring
 {
-    public enum HitResult { Perfect, Good, Miss }
+    public enum HitResult { Perfect, Good, Bad, Miss }
 
     public class ScoreManager : MonoBehaviour
     {
@@ -12,6 +12,11 @@ namespace SootDDR.Scoring
         [Header("Score Values")]
         public int perfectScore = 100;
         public int goodScore = 50;
+        public int badScore = 10;
+
+        [Header("Enemy Multipliers")]
+        [Tooltip("Index corresponds to enemyID. e.g., Element 0 is for enemyID 0.")]
+        public float[] enemyMultipliers = { 1.0f, 1.2f, 1.5f, 2.0f, 2.5f };
 
         public int TotalScore { get; private set; }
         public int Combo { get; private set; }
@@ -37,7 +42,7 @@ namespace SootDDR.Scoring
             }
         }
 
-        public void RegisterHit(HitResult result)
+        public void RegisterHit(HitResult result, int enemyID = 0)
         {
             if (result == HitResult.Miss)
             {
@@ -49,13 +54,27 @@ namespace SootDDR.Scoring
             Combo++;
             MaxCombo = Mathf.Max(MaxCombo, Combo);
 
-            int basePoints = result == HitResult.Perfect
-                ? perfectScore
-                : goodScore;
+            // 1. Base Score
+            int basePoints = 0;
+            switch(result)
+            {
+                case HitResult.Perfect: basePoints = perfectScore; break;
+                case HitResult.Good: basePoints = goodScore; break;
+                case HitResult.Bad: basePoints = badScore; break;
+            }
 
-            float multiplier = 1f + Mathf.Min(Combo - 1, 10) * 0.05f;
+            // 2. Combo Multiplier (+5% per hit, capped at +50%)
+            float comboMultiplier = 1f + Mathf.Min(Combo - 1, 10) * 0.05f;
 
-            int points = Mathf.RoundToInt(basePoints * multiplier);
+            // 3. Enemy Multiplier
+            float enemyMultiplier = 1.0f;
+            if (enemyMultipliers != null && enemyID >= 0 && enemyID < enemyMultipliers.Length)
+            {
+                enemyMultiplier = enemyMultipliers[enemyID];
+            }
+
+            // Final Calculation
+            int points = Mathf.RoundToInt(basePoints * comboMultiplier * enemyMultiplier);
 
             TotalScore += points;
 
@@ -85,9 +104,7 @@ namespace SootDDR.Scoring
         public void SaveFinalScore()
         {
             PlayerPrefs.SetInt("LastScore", TotalScore);
-
             CheckHighScore();
-
             PlayerPrefs.Save();
         }
     }
