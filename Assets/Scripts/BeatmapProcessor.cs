@@ -8,7 +8,6 @@ using SootDDR.UI;
 using SootDDR.Core;
 using UnityEngine.SceneManagement;
 
-
 public class BeatmapProcessor : MonoBehaviour
 {
     [Header("Beatmap")]
@@ -57,6 +56,7 @@ public class BeatmapProcessor : MonoBehaviour
     private class ActiveNote
     {
         public int holeID;
+        public int enemyID;
         public float hitTime;
         public float spawnTime;
         public bool consumed;
@@ -119,7 +119,6 @@ public class BeatmapProcessor : MonoBehaviour
         songSource.PlayScheduled(songStartDSP);
     }
 
-
     // SPAWNING
 
     void HandleSpawning(float songTime)
@@ -155,12 +154,12 @@ public class BeatmapProcessor : MonoBehaviour
         activeNotes.Add(new ActiveNote
         {
             holeID = note.holeID,
+            enemyID = note.enemyID,
             hitTime = hitTime,
             spawnTime = spawnTime,
             consumed = false
         });
     }
-
 
     // INPUT
 
@@ -193,16 +192,16 @@ public class BeatmapProcessor : MonoBehaviour
         float absDiff = Mathf.Abs(diff);
 
         HitResult result =
-    absDiff <= perfectWindow ? HitResult.Perfect :
-    absDiff <= goodWindow ? HitResult.Good :
-    HitResult.Miss;
+            absDiff <= perfectWindow ? HitResult.Perfect :
+            absDiff <= goodWindow ? HitResult.Good :
+            absDiff <= badWindow ? HitResult.Bad : 
+            HitResult.Miss;
 
-        Register(result);
+        Register(result, note.enemyID);
 
         note.consumed = true;
         activeNotes.Remove(note);
     }
-
 
     // MISS
 
@@ -220,16 +219,16 @@ public class BeatmapProcessor : MonoBehaviour
 
             if (songTime > n.hitTime + badWindow)
             {
-                Register(HitResult.Miss);
+                Register(HitResult.Miss, n.enemyID);
                 n.consumed = true;
                 activeNotes.RemoveAt(i);
             }
         }
     }
 
-    void Register(HitResult result)
+    void Register(HitResult result, int enemyID)
     {
-        scoreManager.RegisterHit(result);
+        scoreManager.RegisterHit(result, enemyID);
     }
 
     void HandleScoreEvent(HitResult result, int points, int combo)
@@ -239,7 +238,7 @@ public class BeatmapProcessor : MonoBehaviour
         uiManager?.ShowHitFeedback(result, scoreManager.Combo);
     }
 
-    //debugger
+    // DEBUGGER
     void HandleDebug(float songTime)
     {
         if (debugTMP == null) return;
@@ -270,21 +269,21 @@ public class BeatmapProcessor : MonoBehaviour
         }
 
         float currentBeat = (beatmap != null && currentNoteIndex < beatmap.notes.Length)
-    ? beatmap.notes[currentNoteIndex].beat
-    : -1f;
+            ? beatmap.notes[currentNoteIndex].beat
+            : -1f;
 
         debugTMP.text =
-    $"TIME: {songTime:F3}\n" +
-    $"BEAT INDEX: {currentNoteIndex}/{(beatmap != null ? beatmap.notes.Length : 0)}\n" +
-    $"NEXT BEAT: {(currentBeat >= 0 ? currentBeat.ToString("F2") : "END")}\n" +
-    $"PRESSED: {pressed}\n" +
-    $"DIR: {(dir.HasValue ? dir.ToString() : "None")}\n" +
-    $"HOLE ID: {holeID}\n" +
-    $"ACTIVE: {activeNotes.Count}\n" +
-    $"ms: {diff * 1000f:F1}\n" +
-    $"PREDICTED: {predicted}\n" +
-    $"OFFSET: {globalOffset:F3}\n" +
-    $"SCORE: {scoreManager?.TotalScore}";
+            $"TIME: {songTime:F3}\n" +
+            $"BEAT INDEX: {currentNoteIndex}/{(beatmap != null ? beatmap.notes.Length : 0)}\n" +
+            $"NEXT BEAT: {(currentBeat >= 0 ? currentBeat.ToString("F2") : "END")}\n" +
+            $"PRESSED: {pressed}\n" +
+            $"DIR: {(dir.HasValue ? dir.ToString() : "None")}\n" +
+            $"HOLE ID: {holeID}\n" +
+            $"ACTIVE: {activeNotes.Count}\n" +
+            $"ms: {diff * 1000f:F1}\n" +
+            $"PREDICTED: {predicted}\n" +
+            $"OFFSET: {globalOffset:F3}\n" +
+            $"SCORE: {scoreManager?.TotalScore}";
     }
 
     int DirectionToHoleID(NoteDirection dir)

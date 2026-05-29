@@ -575,8 +575,8 @@ MonoBehaviour:
   inputBufferWindow: 0.1
   debugTMP: {fileID: 89085440}
   globalOffset: -2
-  nextSceneName: GameOver
-  endDelay: 3
+  gameOverTime: 93
+  gameOverScene: GameOver
 --- !u!4 &226476153
 Transform:
   m_ObjectHideFlags: 0
@@ -1891,6 +1891,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SootDDR.Scoring.ScoreManager
   perfectScore: 100
   goodScore: 50
+  badScore: 10
+  enemyMultipliers:
+  - 1
+  - 1.2
+  - 1.5
+  - 2
+  - 0.5
 --- !u!4 &1273462114
 Transform:
   m_ObjectHideFlags: 0
