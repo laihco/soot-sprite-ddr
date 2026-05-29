@@ -45,7 +45,7 @@ namespace SootDDR.UI
         public void UpdateSongTime(float songTime)
         {
             if (songTimeText == null) return;
-            songTimeText.text = $"Time: {songTime:F2}s";
+            songTimeText.text = $"Time: {songTime:F2}";
         }
 
         // ─────────────────────────────────────────────
@@ -86,17 +86,17 @@ namespace SootDDR.UI
             switch (result)
             {
                 case HitResult.Perfect:
-                    hitFeedbackText.text = $"PERFECT{comboTextInline}";
+                    hitFeedbackText.text = $"Perfect{comboTextInline}";
                     hitFeedbackText.color = PerfectColor;
                     break;
 
                 case HitResult.Good:
-                    hitFeedbackText.text = $"GOOD{comboTextInline}";
+                    hitFeedbackText.text = $"Good{comboTextInline}";
                     hitFeedbackText.color = GoodColor;
                     break;
 
                 case HitResult.Miss:
-                    hitFeedbackText.text = $"MISS{comboTextInline}";
+                    hitFeedbackText.text = $"Miss{comboTextInline}";
                     hitFeedbackText.color = MissColor;
                     break;
 
