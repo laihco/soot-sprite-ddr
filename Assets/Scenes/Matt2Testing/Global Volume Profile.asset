@@ -34,7 +34,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.417
+    m_Value: 0.595
   response:
     m_OverrideState: 1
     m_Value: 0.8
@@ -87,6 +87,7 @@ MonoBehaviour:
   - {fileID: -9102304639002158766}
   - {fileID: -7175523831257844004}
   - {fileID: 7793390642417867452}
+  - {fileID: 7081674017200538253}
 --- !u!114 &2884220004080708984
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -108,7 +109,7 @@ MonoBehaviour:
     m_Value: 0.24
   intensity:
     m_OverrideState: 1
-    m_Value: 0.41
+    m_Value: 0.21
   scatter:
     m_OverrideState: 1
     m_Value: 0.7
@@ -122,10 +123,10 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   filter:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   downscale:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   maxIterations:
     m_OverrideState: 0
@@ -137,6 +138,40 @@ MonoBehaviour:
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &7081674017200538253
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558a8e2b6826cf840aae193990ba9f2e, type: 3}
+  m_Name: ShadowsMidtonesHighlights
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
+  active: 1
+  shadows:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0.11811023}
+  midtones:
+    m_OverrideState: 1
+    m_Value: {x: 0.9974129, y: 0.9865786, z: 1, w: -0.019685041}
+  highlights:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  shadowsStart:
+    m_OverrideState: 0
+    m_Value: 0
+  shadowsEnd:
+    m_OverrideState: 0
+    m_Value: 0.3
+  highlightsStart:
+    m_OverrideState: 0
+    m_Value: 0.55
+  highlightsEnd:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &7793390642417867452
 MonoBehaviour:
   m_ObjectHideFlags: 3

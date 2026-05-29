@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bfcb66d4f93e7f549af9a1df84ee084c
+guid: a3ceb0f243dfe4d9a90c6f411c03c376
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6105163733231276311
-    second: GhbliBackgroundFinished_0
+      213: 4556625146649869247
+    second: GhbliBackground-1.png_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -109,29 +109,16 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GhbliBackgroundFinished_0
+      name: GhbliBackground-1.png_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
+        width: 335
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9eee6216ee9164ba0800000000000000
-      internalID: -6105163733231276311
+      spriteID: fbb7da8cd626c3f30800000000000000
+      internalID: 4556625146649869247
       vertices: []
       indices: 
       edges: []
@@ -151,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GhbliBackgroundFinished_0: -6105163733231276311
+      GhbliBackground-1.png_0: 4556625146649869247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

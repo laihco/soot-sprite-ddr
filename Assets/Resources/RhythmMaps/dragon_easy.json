@@ -2,7 +2,7 @@
   "songName": "dragon_easy",
   "bpm": 120,
   "notes": [
-    { "beat": 8, "holeID": 3, "enemyID": 4 },
+    { "beat": 8, "holeID": 3, "enemyID": 0 },
     { "beat": 12, "holeID": 4, "enemyID": 2 },
     { "beat": 14, "holeID": 3, "enemyID": 0},
     { "beat": 18, "holeID": 1, "enemyID": 1 },
