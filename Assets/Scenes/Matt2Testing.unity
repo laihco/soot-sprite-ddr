@@ -2404,7 +2404,7 @@ MonoBehaviour:
   moveSpeed: 0.2
   moveDistance: 10
   bounceHeight: 0.1
-  bounceSpeed: 1
+  bounceSpeed: 8
 --- !u!212 &1324832085
 SpriteRenderer:
   serializedVersion: 2
