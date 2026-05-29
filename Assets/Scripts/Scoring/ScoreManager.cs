@@ -44,7 +44,14 @@ namespace SootDDR.Scoring
 
         public void RegisterHit(HitResult result, int enemyID = 0)
         {
-            if (result == HitResult.Miss)
+            if (enemyID != 4 && result == HitResult.Miss)
+            {
+                Combo = 0;
+                OnHitRegistered?.Invoke(result, 0, 0);
+                return;
+            }
+
+            if (enemyID != 4 && (result == HitResult.Bad || result == HitResult.Good || result == HitResult.Perfect))
             {
                 Combo = 0;
                 OnHitRegistered?.Invoke(result, 0, 0);
