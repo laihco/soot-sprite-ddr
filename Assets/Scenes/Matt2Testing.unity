@@ -706,7 +706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HoleSetup
   holeID: 2
-  positionOffset: {x: 0, y: 0.5, z: 0}
+  positionOffset: {x: 0, y: 0.6, z: 0}
   spawnScale: {x: 0.6, y: 0.9, z: 0.6}
   sortOrderBonus: 10
 --- !u!212 &571861766
@@ -814,7 +814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HoleSetup
   holeID: 1
-  positionOffset: {x: 0, y: 0.5, z: 0}
+  positionOffset: {x: 0, y: 0.6, z: 0}
   spawnScale: {x: 0.6, y: 0.9, z: 0.6}
   sortOrderBonus: 10
 --- !u!212 &603407101
@@ -1715,7 +1715,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SootDDR.Scoring.ScoreManager
   perfectScore: 100
   goodScore: 50
-  badScore: 20
 --- !u!4 &1273462114
 Transform:
   m_ObjectHideFlags: 0
@@ -2456,7 +2455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HoleSetup
   holeID: 0
-  positionOffset: {x: 0, y: 0.45, z: 0}
+  positionOffset: {x: 0, y: 0.5, z: 0}
   spawnScale: {x: 0.6, y: 0.8, z: 0.6}
   sortOrderBonus: 10
 --- !u!212 &1858824957

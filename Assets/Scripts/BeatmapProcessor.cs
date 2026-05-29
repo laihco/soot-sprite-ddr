@@ -36,7 +36,7 @@ public class BeatmapProcessor : MonoBehaviour
     [Header("Debug")]
     public TextMeshProUGUI debugTMP;
 
-    [Header("⚠ GLOBAL OFFSET (TUNE THIS)")]
+    [Header("GLOBAL OFFSET (TUNE THIS)")]
     public float globalOffset = 0f;
 
     private Dictionary<int, HoleSetup> holeLookup;
@@ -173,10 +173,9 @@ public class BeatmapProcessor : MonoBehaviour
         float absDiff = Mathf.Abs(diff);
 
         HitResult result =
-            absDiff <= perfectWindow ? HitResult.Perfect :
-            absDiff <= goodWindow ? HitResult.Good :
-            absDiff <= badWindow ? HitResult.Bad :
-            HitResult.Miss;
+    absDiff <= perfectWindow ? HitResult.Perfect :
+    absDiff <= goodWindow ? HitResult.Good :
+    HitResult.Miss;
 
         Register(result);
 

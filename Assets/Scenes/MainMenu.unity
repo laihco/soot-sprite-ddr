@@ -162,7 +162,7 @@ MonoBehaviour:
   _MainMenuContainer: {fileID: 1484887294}
   _CreditsMenuContainer: {fileID: 128960296}
   _OptionsMenuContainer: {fileID: 1381643823}
-  _sceneToLoadAfterClickingPlay: SootWhackPrototype
+  _sceneToLoadAfterClickingPlay: Matt2Testing
   _sceneToLoadAfterClickingBack: MainMenu
 --- !u!4 &80504960
 Transform:

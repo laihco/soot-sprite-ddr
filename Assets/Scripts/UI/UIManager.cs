@@ -42,7 +42,7 @@ namespace SootDDR.UI
         }
 
         // ─────────────────────────────────────────────
-        // HIT FEEDBACK (WITH COMBO DISPLAY)
+        // HIT FEEDBACK
         // ─────────────────────────────────────────────
         public void ShowHitFeedback(HitResult result, int combo = -1)
         {
@@ -62,8 +62,7 @@ namespace SootDDR.UI
         {
             hitFeedbackText.gameObject.SetActive(true);
 
-            string comboTextInline =
-                combo >= 0 ? $" x{combo}" : "";
+            string comboTextInline = combo >= 0 ? $" x{combo}" : "";
 
             switch (result)
             {
@@ -75,11 +74,6 @@ namespace SootDDR.UI
                 case HitResult.Good:
                     hitFeedbackText.text = "GOOD" + comboTextInline;
                     hitFeedbackText.color = Color.green;
-                    break;
-
-                case HitResult.Bad:
-                    hitFeedbackText.text = "BAD" + comboTextInline;
-                    hitFeedbackText.color = new Color(1f, 0.6f, 0f);
                     break;
 
                 case HitResult.Miss:
